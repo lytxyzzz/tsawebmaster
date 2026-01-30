@@ -1,0 +1,29 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* Header Styles */
+
+header {
+	position: relative;
+	text-align: center;
+}
+
+h1 {
+	position: absolute;
+	bottom: 50%;
+	left: 5%;
+	font-size: 7em;
+	color: white;
+	background-color: rgba(0,0,0,0.65);
+	padding: .2em;
+}
+
+p {
+	position: absolute;
+	bottom: 45%;
+	left: 5%;
+	font-size: 2em;
+	color: white;
+	background-color: rgba(0,0,0,0.65);
+	padding: .2em;
+}
