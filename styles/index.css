@@ -33,16 +33,11 @@ header > p {
 main {
 	display: flex;
 	flex-direction: column;
-	
+	width: 95%;
 }
 
 
 /* Our Mission */
-
-@keyframes  text-shadow-hover {
-	from {text-shadow: none;}
-	to {text-shadow: .2em .2em #ff0000;}
-}
 
 h2 {
 	margin: auto;
@@ -67,7 +62,7 @@ p {
 	width: 50%;
 }
 
-#contactUs > a{
+#contactUs  a{
 	font-size: 1.25em;
 	margin-left: auto;
 	margin-right: auto;
@@ -83,7 +78,7 @@ p {
 	margin-top: 1em;
 }
 
-#contactUs > a:hover {
+#contactUs  a:hover {
 	background-color: darkgreen;
 }
 
