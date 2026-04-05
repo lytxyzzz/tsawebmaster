@@ -29,6 +29,48 @@ header > p {
 	padding: .2em;
 }
 
+/* Mini Nav Styles */
+
+#mini_nav nav ul {
+	display: flex;
+	justify-content: center;
+	padding: .5em;
+	background-color: darkgreen;
+	width: 60%;
+	margin: auto;
+	border-radius: 1em;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+}
+
+#mini_nav nav ul li a{
+	color: white;
+	padding: .5em;
+}
+
+#mini_nav nav ul li a:hover{
+	text-decoration: underline;
+}
+
+/* Back to Top Styles */
+
+.Back_to_top {
+	display: block;
+	text-align: left;
+	color: darkgreen;
+	font-size: 1.25em;
+	padding: .5em;
+	margin-bottom: 1em;
+	width: 6em;
+	border-radius: 1em;
+}
+
+.Back_to_top:hover {
+	text-decoration: underline;
+	background-color: darkgreen;
+	color: white;
+}
+
 /* Main Styles */
 
 main {
@@ -85,9 +127,10 @@ h3:hover {
 	transition-timing-function: ease-in-out;
 }
 
-#volunteer a h3:hover{
+#volunteer a:hover{
 	text-decoration: underline;
 }
+
 
 #volunteer p {
 	text-align: center;
